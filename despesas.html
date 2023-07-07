@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planner Financeiro - Despesas</title>
+  <link rel="stylesheet" href="./CSS/despesas.css">
+  <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+    <div class="container">
+      <a class="navbar-brand" href="fintech.html">Fintech</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="despesas.html">Despesas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Receitas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Metas</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <h1>Despesas</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <canvas id="expense-chart"></canvas>
+      </div>
+      <div class="col-md-6">
+        <ul class="expense-list">
+          <li class="expense-item">Despesa 1: <span id="expense-1">R$100</span> <button class="btn btn-primary edit-expense"
+              data-expense-id="expense-1">Editar</button></li>
+          <li class="expense-item">Despesa 2: <span id="expense-2">R$50</span> <button class="btn btn-primary edit-expense"
+              data-expense-id="expense-2">Editar</button></li>
+          <li class="expense-item">Despesa 3: <span id="expense-3">R$200</span> <button class="btn btn-primary edit-expense"
+              data-expense-id="expense-3">Editar</button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+  <script src="./Js/despesas.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="./Js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+body {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .container {
+    margin-top: 0px;
+  }
+  
+  h1 {
+    color: #fff;
+  }
+  
+  .expense-list {
+    margin-top: 20px;
+  }
+  
+  .expense-item {
+    margin-bottom: 10px;
+  }
+  
+  .expense-item span {
+    color: #00f;
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .edit-expense {
+    margin-left: 10px;
+  }
+  
+  .edit-expense:focus {
+    outline: none;
+  }
+  
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 24px;
+    }
+  }
+  

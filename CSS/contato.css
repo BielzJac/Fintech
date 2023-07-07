@@ -1,0 +1,45 @@
+/* Definições gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  margin-top: 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* Estilo da seção de contato */
+.contact-section {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h1 {
+  margin-bottom: 30px;
+}
+
+.contact-section form {
+  margin-bottom: 30px;
+}
+
+.contact-section textarea {
+  resize: none;
+}
+
+.contact-section h3 {
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  margin-bottom: 10px;
+}
